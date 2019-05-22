@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97E9AFBE21A6406A5B8BD006 /* libPods-LianDong.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFF6C433C565EC42AE90A16 /* libPods-LianDong.a */; };
+		9A2914FA1D8ECC0400977AF6 /* ChainReactionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2914F61D8ECC0400977AF6 /* ChainReactionView.m */; };
+		9A2914FB1D8ECC0400977AF6 /* XLChannelLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2914F81D8ECC0400977AF6 /* XLChannelLabel.m */; };
+		9A9F77531D87C8240006A368 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9F77521D87C8240006A368 /* main.m */; };
+		9A9F77561D87C8240006A368 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9F77551D87C8240006A368 /* AppDelegate.m */; };
+		9A9F77591D87C8240006A368 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9F77581D87C8240006A368 /* ViewController.m */; };
+		9A9F775C1D87C8240006A368 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9F775A1D87C8240006A368 /* Main.storyboard */; };
+		9A9F775E1D87C8240006A368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A9F775D1D87C8240006A368 /* Assets.xcassets */; };
+		9A9F77611D87C8240006A368 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9F775F1D87C8240006A368 /* LaunchScreen.storyboard */; };
+		ACA9B82D22545EA700982571 /* JhPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA9B82C22545EA700982571 /* JhPageControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C3B0156BDEA0465A18DA4C4 /* Pods-LianDong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LianDong.release.xcconfig"; path = "Pods/Target Support Files/Pods-LianDong/Pods-LianDong.release.xcconfig"; sourceTree = "<group>"; };
+		9A2914F51D8ECC0400977AF6 /* ChainReactionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChainReactionView.h; sourceTree = "<group>"; };
+		9A2914F61D8ECC0400977AF6 /* ChainReactionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChainReactionView.m; sourceTree = "<group>"; };
+		9A2914F71D8ECC0400977AF6 /* XLChannelLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLChannelLabel.h; sourceTree = "<group>"; };
+		9A2914F81D8ECC0400977AF6 /* XLChannelLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLChannelLabel.m; sourceTree = "<group>"; };
+		9A9F774E1D87C8240006A368 /* LianDong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LianDong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A9F77521D87C8240006A368 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A9F77541D87C8240006A368 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A9F77551D87C8240006A368 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A9F77571D87C8240006A368 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A9F77581D87C8240006A368 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A9F775B1D87C8240006A368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A9F775D1D87C8240006A368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A9F77601D87C8240006A368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A9F77621D87C8240006A368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAFF6C433C565EC42AE90A16 /* libPods-LianDong.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LianDong.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA9B82B22545EA700982571 /* JhPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JhPageControl.h; sourceTree = "<group>"; };
+		ACA9B82C22545EA700982571 /* JhPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JhPageControl.m; sourceTree = "<group>"; };
+		E9B14906C6B1818BAA306084 /* Pods-LianDong.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LianDong.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LianDong/Pods-LianDong.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A9F774B1D87C8240006A368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E9AFBE21A6406A5B8BD006 /* libPods-LianDong.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79A59F4111BD5DF1DDEE17CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9B14906C6B1818BAA306084 /* Pods-LianDong.debug.xcconfig */,
+				8C3B0156BDEA0465A18DA4C4 /* Pods-LianDong.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A2914F21D8ECC0400977AF6 /* ChainReaction */ = {
+			isa = PBXGroup;
+			children = (
+				ACA9B82B22545EA700982571 /* JhPageControl.h */,
+				ACA9B82C22545EA700982571 /* JhPageControl.m */,
+				9A2914F51D8ECC0400977AF6 /* ChainReactionView.h */,
+				9A2914F61D8ECC0400977AF6 /* ChainReactionView.m */,
+				9A2914F71D8ECC0400977AF6 /* XLChannelLabel.h */,
+				9A2914F81D8ECC0400977AF6 /* XLChannelLabel.m */,
+			);
+			path = ChainReaction;
+			sourceTree = "<group>";
+		};
+		9A9F77451D87C8240006A368 = {
+			isa = PBXGroup;
+			children = (
+				9A9F77501D87C8240006A368 /* LianDong */,
+				9A9F774F1D87C8240006A368 /* Products */,
+				79A59F4111BD5DF1DDEE17CE /* Pods */,
+				BE5B7D9F44218A31DBAFCBDC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A9F774F1D87C8240006A368 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A9F774E1D87C8240006A368 /* LianDong.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A9F77501D87C8240006A368 /* LianDong */ = {
+			isa = PBXGroup;
+			children = (
+				9A2914F21D8ECC0400977AF6 /* ChainReaction */,
+				9A9F77541D87C8240006A368 /* AppDelegate.h */,
+				9A9F77551D87C8240006A368 /* AppDelegate.m */,
+				9A9F77571D87C8240006A368 /* ViewController.h */,
+				9A9F77581D87C8240006A368 /* ViewController.m */,
+				9A9F775A1D87C8240006A368 /* Main.storyboard */,
+				9A9F775D1D87C8240006A368 /* Assets.xcassets */,
+				9A9F775F1D87C8240006A368 /* LaunchScreen.storyboard */,
+				9A9F77621D87C8240006A368 /* Info.plist */,
+				9A9F77511D87C8240006A368 /* Supporting Files */,
+			);
+			path = LianDong;
+			sourceTree = "<group>";
+		};
+		9A9F77511D87C8240006A368 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A9F77521D87C8240006A368 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE5B7D9F44218A31DBAFCBDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAFF6C433C565EC42AE90A16 /* libPods-LianDong.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A9F774D1D87C8240006A368 /* LianDong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A9F77651D87C8240006A368 /* Build configuration list for PBXNativeTarget "LianDong" */;
+			buildPhases = (
+				5FF9C8EF3B1ADCFA819A804E /* [CP] Check Pods Manifest.lock */,
+				9A9F774A1D87C8240006A368 /* Sources */,
+				9A9F774B1D87C8240006A368 /* Frameworks */,
+				9A9F774C1D87C8240006A368 /* Resources */,
+				2FBBF044C5964E99DD30B1D9 /* [CP] Embed Pods Frameworks */,
+				56C023B914D070257BC939FB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LianDong;
+			productName = LianDong;
+			productReference = 9A9F774E1D87C8240006A368 /* LianDong.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A9F77461D87C8240006A368 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xuelin;
+				TargetAttributes = {
+					9A9F774D1D87C8240006A368 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = N29NG87DU4;
+					};
+				};
+			};
+			buildConfigurationList = 9A9F77491D87C8240006A368 /* Build configuration list for PBXProject "LianDong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A9F77451D87C8240006A368;
+			productRefGroup = 9A9F774F1D87C8240006A368 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A9F774D1D87C8240006A368 /* LianDong */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A9F774C1D87C8240006A368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9F77611D87C8240006A368 /* LaunchScreen.storyboard in Resources */,
+				9A9F775E1D87C8240006A368 /* Assets.xcassets in Resources */,
+				9A9F775C1D87C8240006A368 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FBBF044C5964E99DD30B1D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LianDong/Pods-LianDong-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56C023B914D070257BC939FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LianDong/Pods-LianDong-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FF9C8EF3B1ADCFA819A804E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A9F774A1D87C8240006A368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9F77591D87C8240006A368 /* ViewController.m in Sources */,
+				9A2914FB1D8ECC0400977AF6 /* XLChannelLabel.m in Sources */,
+				9A9F77561D87C8240006A368 /* AppDelegate.m in Sources */,
+				9A9F77531D87C8240006A368 /* main.m in Sources */,
+				ACA9B82D22545EA700982571 /* JhPageControl.m in Sources */,
+				9A2914FA1D8ECC0400977AF6 /* ChainReactionView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9A9F775A1D87C8240006A368 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A9F775B1D87C8240006A368 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A9F775F1D87C8240006A368 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A9F77601D87C8240006A368 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A9F77631D87C8240006A368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A9F77641D87C8240006A368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A9F77661D87C8240006A368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9B14906C6B1818BAA306084 /* Pods-LianDong.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LianDong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuelin.LianDong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9A9F77671D87C8240006A368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C3B0156BDEA0465A18DA4C4 /* Pods-LianDong.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LianDong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuelin.LianDong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A9F77491D87C8240006A368 /* Build configuration list for PBXProject "LianDong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9F77631D87C8240006A368 /* Debug */,
+				9A9F77641D87C8240006A368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A9F77651D87C8240006A368 /* Build configuration list for PBXNativeTarget "LianDong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9F77661D87C8240006A368 /* Debug */,
+				9A9F77671D87C8240006A368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A9F77461D87C8240006A368 /* Project object */;
+}
